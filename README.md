@@ -28,9 +28,9 @@ Your grade on this assignment will be determined by the number of tasks you are 
 
 Feel free to mark these tasks as complete/incomplete, however your instructor will likely modify your tasks when grading.
 
-This assignment has 12 tasks:
+This assignment has 13 tasks:
 - 3 setup tasks
-- 8 server application tasks
+- 9 server application tasks
 - 1 deployment task
 
 You got this!
