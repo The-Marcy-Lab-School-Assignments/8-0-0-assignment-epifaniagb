@@ -35,6 +35,28 @@ This assignment has 13 tasks:
 
 You got this!
 
+**Setup Technical Requirements**
+
+- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
+- [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
+- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+
+**Server Application Technical Requirements**
+
+- [ ] In `index.js`, the `express()` function is used to create an `app`
+- [ ] There are 4 controller functions
+  - [ ] Two controllers send an HTML response (either raw HTML or an HTML file)
+  - [ ] Two controllers send a data response
+  - [ ] One of the controllers uses query parameters in some way (`req.query.parameterName`)
+- [ ] There are 4 GET endpoints
+  - [ ] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
+  - [ ] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
+- [ ] The `app` listens on an available port (I recommend `8080`)
+
+**Deployment Technical Requirements**
+
+- [ ] Your GitHub page has a link to the deployed server in the About section. 
+
 ## Part 1 - Setup
 
 **Create your files:**
@@ -58,14 +80,6 @@ While working on your server, use `npm run dev` to run the server and have it re
 
 When deploying, you will use the `npm start` command to start the server using the normal `node` command.
 
-**Setup Technical Requirements**
-
-Before continuing, make sure that these tasks are completed!
-
-- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
-- [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
-- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
-
 
 ## Part 2 - Writing the Server Application
 
@@ -75,18 +89,6 @@ The server should have four GET endpoints, two that serve HTML and two that serv
 
 As you build your server, visit http://localhost:8080 (or whatever port number you chose) and test out your server!
 
-**Server Application Technical Requirements**
-
-- [ ] In `index.js`, the `express()` function is used to create an `app`
-- [ ] There are 4 controller functions
-  - [ ] Two controllers send an HTML response (either raw HTML or an HTML file)
-  - [ ] Two controllers send a data response
-  - [ ] One of the controllers uses query parameters in some way (`req.query.parameterName`)
-- [ ] There are 4 GET endpoints
-  - [ ] Endpoints that provided data start with `/api` (ex: `/api/name` returns a name)
-  - [ ] Endpoints that provide HTML start with `/` (ex: `/about` returns the about HTML page)
-- [ ] The `app` listens on an available port (I recommend `8080`)
-
 ## Part 3 - Deploy
 
 When you're done, push your code to github and [follow these steps to deploy using Render](https://github.com/The-Marcy-Lab-School/render-deployment-instructions). Then, add the deployed link to your GitHub About section. Click on the gear icon to set the Website url (see below)
@@ -94,10 +96,6 @@ When you're done, push your code to github and [follow these steps to deploy usi
 ![](./images/deployed-github.png)
 
 Here is an example of a deployed server: https://github.com/benspector-mls/first-express-server-f23-test
-
-**Deployment Technical Requirements**
-
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
 
 ## Submit
 
