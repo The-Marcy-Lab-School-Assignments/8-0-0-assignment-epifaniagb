@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/home', (req, res, next) => {
+app.get('/', (req, res, next) => {
   res.send('<h1>Welcome home!</h1>');
 });
 
