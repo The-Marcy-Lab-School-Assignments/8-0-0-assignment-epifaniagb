@@ -24,5 +24,5 @@ app.get('/api/filter', (req, res, next) => {
   res.send(filteredData);
 });
 
-const port = 8080;
+const port = process.env.PORT || 4321;
 app.listen(port, () => console.log(`listening at http://localhost:${port}`));
